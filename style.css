@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+#header-img {
+    display: inline-block;
+}
+
+#nav-bar ul {
+    display: flex;
+    justify-content: flex-end;
+
+    list-style-type: none;
+}
+
+.nav-link {
+    padding: 10px 20px;
+}
