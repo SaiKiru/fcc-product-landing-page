@@ -96,12 +96,18 @@ body {
     font-size: 32px;
 }
 
+#feature-card-group {
+    display: flex;
+    justify-content: space-around;
+}
+
 .feature-card {
+    width: 420px;
     display: flex;
     justify-content: space-around;
     padding: 32px;
     border-radius: 16px;
-    background-color:hsl(225, 28%, 14%);
+    /* background-color:hsl(225, 28%, 14%); */
     /* background-color:rgb(11, 12, 17); */
 }
 
@@ -110,6 +116,7 @@ body {
     width: 100px;
     height: 100px;
     opacity: 70%;
+    align-self: center;
 }
 
 .feature-content {
@@ -126,6 +133,24 @@ body {
 .feature-content p {
     margin: 0px;
     color: lightgray;
+}
+
+@media screen and (max-width: 1080px){
+    #feature-card-group {
+        flex-direction: column;
+    }
+
+    .feature-card {
+        width: 720px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .feature-card {
+        width: auto;
+        padding: 32px 8px;
+    }
 }
 
 
