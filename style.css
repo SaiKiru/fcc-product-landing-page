@@ -95,8 +95,14 @@ body {
 }
 
 .section-header {
+    padding: 16px;
     text-align: center;
     font-size: 32px;
+    background-color: hsla(0, 0%, 0%, 0.158);
+}
+
+.section-content {
+    padding: 64px 0px;
 }
 
 #feature-card-group {
