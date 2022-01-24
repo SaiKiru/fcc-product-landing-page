@@ -94,6 +94,8 @@ body {
     color: lightgray;
 }
 
+/* BANNER END */
+
 .section-header {
     padding: 16px;
     text-align: center;
@@ -104,6 +106,8 @@ body {
 .section-content {
     padding: 64px 0px;
 }
+
+/* FEATURES SECTION START */
 
 #feature-card-group {
     display: flex;
@@ -134,9 +138,9 @@ body {
 
 .feature-content header {
     margin-bottom: 0.25em;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
-    color: var(--accent-color);
+    color: hsl(168, 87%, 39%);
 }
 
 .feature-content p {
@@ -162,6 +166,7 @@ body {
     }
 }
 
+/* FEATURES SECTION END */
 
 #video {
     display: block;
