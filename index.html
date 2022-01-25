@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,8 +19,8 @@
         <a href="#installation-section" class="nav-link">
           <li>Installation</li>
         </a>
-        <a href="#form" class="nav-link">
-          <li>Buy Now?</li>
+        <a href="#socials-section" class="nav-link">
+          <li>Socials</li>
         </a>
       </ul>
     </nav>
@@ -74,21 +75,44 @@
     </div>
   </section>
 
-  <section id="subscription-section">
-    <h2>Subscribe to our Newsletter</h2>
-    <p>Get informed of the latest updates</p>
-
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <section id="socials-section">
+    <header class="section-header">Our Socials</header>
+    <div class="section-content">    
       <div>
-        <input id="email" type="email" placeholder="johndoe@gmail.com" name="email"/>
-        <input id="submit" type="submit" value="Submit" />
-      </div>
+        <header class="section-intro">Follow us on the following social platforms to get informed of latest updates.</header>
 
-      <div>
-        <input id="privacy_policy" type="checkbox" required />
-        <label for="privacy_policy">I agree to Parrot's <a href="">Privacy Policy</a></label>
+        <div id="socials-group-div">
+          <div class="socials-container">
+            <a href="https://www.facebook.com/parrotsec" class="fa fa-facebook" target="_blank"></a>
+          </div>
+          <div class="socials-container">
+            <a href="https://www.twitter.com/parrotsec" class="fa fa-twitter" target="_blank"></a>
+          </div>
+          <div class="socials-container">
+            <a href="https://www.instagram.com/parrotproject" class="fa fa-instagram" target="_blank"></a>
+          </div>
+          <div class="socials-container">
+            <a href="https://t.me/parrotproject" class="fa fa-telegram" target="_blank"></a>
+          </div>
+        </div>
+
+        <header class="section-intro">or subscribe to our newsletter
+        </header>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="input-group">
+            <input id="email" type="email" placeholder="johndoe@gmail.com" name="email"/>
+            <input id="submit" type="submit" value="Submit" />
+          </div>
+
+          <div class="input-group">
+            <input id="privacy-policy" type="checkbox" required />
+            <label for="privacy-policy">I agree to Parrot's <a href="">Privacy Policy</a></label>
+          </div>
+        </form>
       </div>
-    </form>
+    </div>
+
   </section>
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
