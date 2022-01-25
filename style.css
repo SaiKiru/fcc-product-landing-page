@@ -168,6 +168,15 @@ body {
 
 /* FEATURES SECTION END */
 
+/* INSTALLATION SECTION START */
+
+#installation-instructions {
+    position: relative;
+    top: -16px;
+    font-size: 18px;
+    text-align: center;
+}
+
 #video {
     display: block;
     margin: auto;
@@ -189,3 +198,6 @@ body {
     color: white;
     background-color: var(--accent-color);
 }
+
+/* INSTALLATION SECTION END */
+
